@@ -18,7 +18,7 @@ public:
     }
 };
 
-// friend class is engineer NOT a part of architect class
+// friend class engineer NOT a part of architect class
 class Engineer
 {
     int engine = 10;
@@ -37,6 +37,7 @@ void Engineer::Build(Architect archer)
     std::cout << "design number: " << archer.designNumber << "\n";
 }
 
+// friend function getEngine is NOT a part of engineer class
 int getEngine(Engineer edris)
 {
     return edris.engine;
