@@ -1,3 +1,3 @@
-# cpp-btech-nfsu
+# cpp-basics
 
 Basic C++ practice programs
