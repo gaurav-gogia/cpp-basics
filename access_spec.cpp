@@ -1,6 +1,6 @@
 #include <iostream>
 
-// notice how we a structure doesn't allow us to controll access levels
+// notice how a structure doesn't allow us to control access levels
 // everything is public in a structure
 struct book
 {
